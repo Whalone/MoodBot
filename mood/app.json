@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#586C91",
+    "navigationBarTitleText": "MoodBot",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#707070",
+    "selectedColor":"#586C91",
+    "list":[{
+      "selectedIconPath":"comm/image/index_selected.png", 
+      "iconPath":"comm/image/index_unselected.png",
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },
+    {
+      "selectedIconPath":"comm/image/me_selected.png", 
+      "iconPath":"comm/image/me_unselected.png",
+      "pagePath":"pages/person/person",
+      "text":"我的"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

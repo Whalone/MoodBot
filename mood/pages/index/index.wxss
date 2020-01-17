@@ -1,0 +1,15 @@
+/**index.wxss**/
+
+
+.weui-flex{
+  
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
+}
+
+.weui-flex__item{
+  height: 100px;
+  border: 1px red solid; 
+}

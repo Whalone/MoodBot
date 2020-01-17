@@ -1,0 +1,4 @@
+<!--pages/person/person.wxml-->
+<view class="container">
+  <view>me de </view>
+</view>

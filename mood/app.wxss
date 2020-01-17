@@ -1,0 +1,14 @@
+/**app.wxss**/
+@import 'comm/weui/style/weui.wxss';
+
+
+.container {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  padding: 80rpx 0;
+  font-size: 32rpx;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
