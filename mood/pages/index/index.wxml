@@ -1,15 +1,14 @@
 <!--index.wxml-->
-
 <view class="container">
-	<view class="weui-flex">
-		<view class="weui-flex__item">
-      <view ></view>
-		</view>
-
-		<view class="weui-flex__item">
-123
-		</view>
-
-	</view>
-
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> I AM</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+			
+    </block>
+  </view>
+  <view class="usermotto">
+    <view class="user-motto">{{motto}}<image hidden="{{!showHeart}}" class="heart" src="../../comm/image/heart.png"></image></view>
+  </view>
 </view>

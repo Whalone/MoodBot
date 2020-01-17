@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/person/person",
+    "pages/menu/menu",
     "pages/logs/logs"
   ],
   "window": {
@@ -16,7 +17,7 @@
     "list":[{
       "selectedIconPath":"comm/image/index_selected.png", 
       "iconPath":"comm/image/index_unselected.png",
-      "pagePath":"pages/index/index",
+      "pagePath":"pages/menu/menu",
       "text":"首页"
     },
     {

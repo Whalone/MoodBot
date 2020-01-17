@@ -1,0 +1,45 @@
+/* pages/menu/menu.wxss */
+
+.weui-flex {
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  z-index: -999;
+
+  /* border: 1px red solid; */
+  justify-content: center;
+}
+
+.weui-flex__item {
+  /* height: 200rpx; */
+  /* border: 1px red solid; */
+  justify-content: center;
+
+
+}
+
+.menu_text {
+  width: 200rpx;
+  height: 40rpx;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#707070;
+}
+
+.menu_image {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: pink;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.left{
+  margin-right: 60rpx;
+}
+
+.right{
+  margin-left: 60rpx;
+}

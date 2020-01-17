@@ -1,0 +1,46 @@
+<!--pages/menu/menu.wxml-->
+
+<view class="container">
+	<view class="weui-flex">
+		<view class="weui-flex__item left">
+			<view class="menu_image">
+				<image src="../../comm/image/bottle.png" style="width:120rpx;height:120rpx;margin-left:40rpx;margin-top:40rpx;"></image>
+			</view>
+			<view class="menu_text">
+				新的瓶子
+			</view>
+		</view>
+
+		<view class="weui-flex__item right">
+			<view class="menu_image">
+				<image src="../../comm/image/bottle.png" style="width:120rpx;height:120rpx;margin-left:40rpx;margin-top:40rpx;"></image>
+			</view>
+			<view class="menu_text">
+				心情统计
+			</view>
+		</view>
+
+	</view>
+
+	<view class="weui-flex" style="margin-top:30px;">
+		<view class="weui-flex__item left">
+			<view class="menu_image">
+				<image src="../../comm/image/bottle.png" style="width:120rpx;height:120rpx;margin-left:40rpx;margin-top:40rpx;"></image>
+			</view>
+			<view class="menu_text">
+				新的瓶子
+			</view>
+		</view>
+
+		<view class="weui-flex__item right">
+			<view class="menu_image">
+				<image src="../../comm/image/bottle.png" style="width:120rpx;height:120rpx;margin-left:40rpx;margin-top:40rpx;"></image>
+			</view>
+			<view class="menu_text">
+				心情统计
+			</view>
+		</view>
+
+	</view>
+
+</view>
