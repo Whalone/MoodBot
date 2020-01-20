@@ -4,6 +4,7 @@
     "pages/person/person",
     "pages/menu/menu",
     "pages/authorize/authorize",
+    "pages/bottle/bottle",
     "pages/logs/logs"
   ],
   "window": {

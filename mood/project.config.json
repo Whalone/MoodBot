@@ -60,6 +60,20 @@
 					"id": -1,
 					"name": "pages/authorize/authorize",
 					"pathName": "pages/authorize/authorize",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/bottle/bottle",
+					"pathName": "pages/bottle/bottle",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/bottle/bottle",
+					"pathName": "pages/bottle/bottle",
 					"scene": null
 				}
 			]

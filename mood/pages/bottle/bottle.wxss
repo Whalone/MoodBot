@@ -1,0 +1,6 @@
+/* pages/bottle/bottle.wxss */
+
+.container{
+  padding: 100rpx 0;
+}
+  
