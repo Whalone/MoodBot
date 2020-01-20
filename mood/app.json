@@ -1,8 +1,9 @@
 {
-  "pages": [
+  "pages": [ 
     "pages/index/index",
     "pages/person/person",
     "pages/menu/menu",
+    "pages/authorize/authorize",
     "pages/logs/logs"
   ],
   "window": {
@@ -17,13 +18,13 @@
     "list":[{
       "selectedIconPath":"comm/image/index_selected.png", 
       "iconPath":"comm/image/index_unselected.png",
-      "pagePath":"pages/menu/menu",
+      "pagePath":"pages/index/index",
       "text":"首页"
     },
     {
       "selectedIconPath":"comm/image/me_selected.png", 
       "iconPath":"comm/image/me_unselected.png",
-      "pagePath":"pages/person/person",
+      "pagePath":"pages/menu/menu",
       "text":"我的"
     }]
   },

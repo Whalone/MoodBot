@@ -53,6 +53,13 @@
 					"id": -1,
 					"name": "pages/menu/menu",
 					"pathName": "pages/menu/menu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/authorize/authorize",
+					"pathName": "pages/authorize/authorize",
 					"scene": null
 				}
 			]

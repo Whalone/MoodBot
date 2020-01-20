@@ -1,0 +1,17 @@
+<!--pages/authorize/authorize.wxml-->
+
+
+<view class = "login-box" >
+  <image class='backgroundImg' src='../../comm/image/background.jpeg'></image>
+</view>
+
+<view class="container">
+
+  <image class="appImg" src="../../comm/image/app.jpg"></image>
+  <text class="appText">MoodBot</text>
+  <text class="appInfo">幸福从瓶口溢出，把大海染成粉红色</text>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">捡一个瓶子</button>
+</view>
+
+
+
